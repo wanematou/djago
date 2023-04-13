@@ -1,0 +1,232 @@
+/* body{
+    overflow-x: hidden;
+} */
+.s1{
+    background-color: rgb(30, 30, 160);
+    height: 300px;
+}
+.a1 img{
+    position: relative;
+    right: 62px;
+    bottom: 40px;
+    
+}
+.a2{
+    display: flex;
+}
+.a3{
+    color: rgb(189, 34, 34);
+    font-size: 50px;
+    position: relative;
+    bottom: 255px;
+    font-weight: bolder;
+}
+.a33{
+    position: relative;
+    bottom: 50px;
+    font-size: bold;
+}
+.a4{
+    position: relative;
+    left: 65px;
+    bottom: 105px;
+}
+.a5{
+    position: relative;
+    left: 300px;
+    bottom: 250px;
+}
+.a5 img{
+  border-radius: 50%; 
+  position: relative;
+  bottom: 85px;
+  border: 35px solid red;
+}
+.a6{
+position: relative;
+bottom: 140px;
+}
+.a7{
+    background-color: #050505;
+    position: relative;
+    bottom: 145px;
+    height: 50px;
+}
+.a7 a{
+    color: white;
+}
+.a71{
+    display: flex;
+    gap: 100px;
+}
+.a71 a{
+    position: relative;
+    top: 18px;
+}
+.s3{
+    position: relative;
+    top: 500px;
+}
+.s33{
+    position: relative;
+    left: 725px;
+    font-size: 40px;
+    bottom: 15px;
+    color: white;
+    background-color: blue;
+    width: 450px;
+    text-align: center;
+    border-radius: 10%;
+}
+.s4{
+    position: relative;
+    top: 550px;  
+}
+.c1{
+    display: flex;
+}
+.c2{
+   width: 50%;
+   position: relative;
+   left: 100px;
+   bottom: 40px;
+}
+.c3{
+    width: 35%;
+    position: relative;
+    left: 60px;
+    text-align: justify;
+    font-size: 20px;
+}
+.s4{
+    background-color: blue;
+    height: 700px;
+    position: relative;
+
+}
+.d1{
+    font-size: 60px;
+    color:white;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.d2{
+    display: flex;
+    width: 100%;
+}
+.d3{
+    position: relative;
+   left: 45%;
+}
+.d4{
+    display: flex;
+    width: 100%;
+}
+.d21{
+    width: 50%;
+    position: relative;
+   left: 100px;
+   color: white;
+   font-size: 25px;
+}
+.d22{
+    width: 50%;
+    position: relative;
+    left: 30%;
+    color: white;
+    font-size: 25px;
+}
+.d41{
+    width: 50%;
+    position: relative;
+   left: 100px;
+   color: white;
+   font-size: 25px;
+}
+.d42{
+    width: 50%;
+    position: relative;
+    left: 30%;
+    color: white;
+    font-size: 25px;
+}
+.d11{
+    position: relative;
+    top: 50px;
+    color: white;
+    font-size: 25px;
+}
+.s5{ 
+    background-color: rgb(209, 203, 203);
+    position: relative;
+    top: 490px;
+    height: 800px;
+}
+.s51{
+    position: relative;
+    top: 80px;
+}
+.s5 p{
+font-size: 60px;
+color: white;
+text-align: center;
+background-color: blue;
+width: 50%;
+position: relative;
+left: 25%;
+
+}
+.e1{ 
+    display: flex;
+    gap: 335px;
+    position: relative;
+    left: 8%;
+    position: relative;
+    top: 25px;
+}
+.e2{
+    display: flex;
+    gap: 360px;
+    position: relative;
+    left: 8%; 
+    position: relative;
+    top: 105px; 
+}
+.e3{
+    display: flex;
+    gap: 360px;
+    position: relative;
+    left: 8%;
+    position: relative;
+    top: 225px;
+}
+.s6{
+    position: relative;
+    top: 500px;
+    
+}
+.s6 h1{
+    font-size: 60px; color: white; background-color: blue;
+    position: relative; left: 25%; width: 50%; text-align: center;
+}
+.f1{
+    display: flex;
+    width: 100%;
+    position: relative;
+    left: 25%;
+
+}
+.f1 div{
+    font-size: 25px;
+    display: flex;
+    gap: 500px;
+}
+.f11{
+    display: flex;
+}
+.f12{
+    display: flex;
+}
+
