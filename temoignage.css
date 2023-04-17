@@ -2,7 +2,7 @@ body{
     overflow-x: hidden;
 }
 .s1{
-    height: 350px;
+    height: 320px;
 }
 .a1{
     background-color:blue;
@@ -66,142 +66,124 @@ bottom: 140px;
 .nav-item ko{
     color: white;
 }
-.p1{
-    display: flex;
-    height: 800px;
-    background-color: #C8D3E4;
+.ai{
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    margin-left: 175px;
 }
-.p1 div{
+.v{
+    margin-left: 800px;
     position: relative;
-    top: 70px;
+    bottom: 150px;
 }
-.pa{
-    width: 45%;
+.aii{
+    margin-left: 175px;
+}
+.s2{
+    height: 650px;
+    background-color: grey;
+    position: relative;
+    bottom: 160px;
+}
+.open{
+    position: relative;
+    top: 45px;
+    margin-left: 400px;
+}
+.z{
+    position: relative;
+    top: 200px;
+    margin-left: 300px;
 
 }
-.pa2{
-    margin-left: 500px;
+.l1 img{
+    height: 120px;
+    width: 120px;
     position: relative;
-    bottom: 450px;
+    bottom: 45px;
 }
-.pb{
-    margin-left: 200px; font-size: 25px;
+.l2 img{
+    height: 120px;
+    width: 120px;
 }
-.pb2{
+.cob{
+    margin-left: 700px;
+    position: relative;
+    bottom: 100px;
+}
+.cob1{
+    position: relative;
+    bottom: 10px;
+    color: white;
+}
+.cob3{
+    position: relative;
+    top: 10px;
     color: blue;
 }
-.pb h1{
-    color: white;
-    font-size: 40px;
-    margin-left: 30px;
+.cob2{
+    color: aliceblue;
+}
+.s3{
+    height: 800px;
+    background-color: beige;
     position: relative;
-    
+    bottom: 165px;
 }
-.pc2{
+.po{
     position: relative;
-    top: -30px;
 }
-.pc2 div{
-    color: white;
-    background-color:blue;
-    width: 300px;
-    border: 10px solid #C8D3E4;
-    margin-left: 20px;
+.op{
+    margin-left: 400px;
+    position: relative;
+    top: 45px;
 }
-.pc3{
-    width: 50%;
-    background-color: #C8D3E4;
+.evra{
+    margin-top: 70px;
+    width: 450px;
+    height: 210px;
+    background-color: azure;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px 6px;
+    border-bottom: 10px solid crimson;
+}
+.evra img{
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    shape-outside: content-box;
+}
+.ri{
+    display: flex;
+    gap: 300px;
+    position: relative;
+    top: 100px;
+}
+.louv{
+    margin-top: 240px;
+    margin-left: 50px;
+}
+.yu{
+    margin-left: 50px;
+}
+.kod{
+    border: 1px solid blue;
     position: relative;
     top: 50px;
 }
-.p2{
-    height: 500px;
-    background-color: #C8D3E4;
-    position: relative;
-    top: -15px; 
-}
-.p2 h1{
-    text-align: center;
-}
-.t{
-    height: 5px;
-    background-color: black;
-    position: relative;
-    top: -15px;
-}
-.v{
-    position: relative;
-    top: 90px;
-    text-align: center;
-}
-.v h1{
-    font-size: 40px;
-    position: relative;
-    top: -40px;
-}
-.bl{
-    display: flex;
-    gap: 770px;
-    
-}
-.bl1{
-    position: relative;
-    top: -515px;
- 
-}
-.bl2{
-    position: relative;
-    top: -515px;
-}
-.p31{
-    position: relative;
-    left: 525px;
-}
-.p32{
-    text-align: center;
-    font-size: 25px;
-}
-
-.bg{
-    position: relative;
-    top: -510px;
-    background-color: #C8D3E4;
-    height: 300px;
-}
-.ne{
-    position: relative;
-    top: -450px;
-    text-align: center;
-   
-}
-.ne p{
-    font-size: 25px;
-    color: rgb(121, 8, 8);
-}
-.ne h1{
-  color: rgb(4, 4, 54);
-}
-.sf{
-   position: relative;
-   left: 50px;
-   bottom: 425px;
-}
-.sf1{
-    background-color: #C8D3E4;
-}
-
-
 .bel{
     position: relative;
     left: 200px;
-   width: 250px;
+   width: 0PX;
    
 }
 .fin{
     position: relative;
+    top: -25px;
     height: 250px;
-   position: relative;
-   bottom: 420px;
 }
 
 .mer{
@@ -218,5 +200,4 @@ bottom: 140px;
    position: relative;
    left: 450px;
 }
-
 

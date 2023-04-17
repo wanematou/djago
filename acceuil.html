@@ -1,157 +1,202 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="boots.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/bootstrap-5.2.3-dist/css/bootstrap.min.css">
-    <title>Document</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>site Djago</title>
    <link rel="stylesheet" href="acceuil.css">
+   <link rel="stylesheet" href="style/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+
 </head>
 <body>
     <header>
-        <section class="s1">
+        <section class="s1 col-md-12 col-sm-12">
             <div class="a1">
                     <img src="photos/im2.png" alt="" width="40%">
                 <div class="a2">
                     <div class="a3"> <p> DJAGO-I</p> <p class="a33">MEMBRE DU GROUPE</p></div>
                     <div class="a4"> <img src="photos/im1.png.jpg" alt=""> </div>
                     <div class="war">
-                    <div class="a5"> <img src="photos/im12.jpg" alt="" width="350px" height="350px"></div>
+                    <div class="a5"> <img src="photos/header_img.png" alt="" width="300px" height="300px"></div>
                 </div>
                 </div>        
                 </div>
-                    <hr class="a6">
-                <div class="a7">
-                    <ul class="a71">
-                    <li><a href="">ACCUEIL</a></li>
-                    <li><a href="">A PROPOS DE NOUS</a></li>
-                    <li><a href="">NOS SERVICES</a></li>
-                    <li><a href="">NOS CLIENTS</a></li>
-                    <li><a href="">TEMOIGNAGES</a></li>
-                    <li><a href="">CONTACTS</a></li>
-                    </ul>
-                </div>    
-            </diV>
+                <div class="nav">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">ACCUEIL</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent aa " >
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="A propos.html">A PROPOS DE NOUS</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="nos-services.html">NOS SERVICE</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="nos-client.html">NOS CLIENTS</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="temoignage.html">TEMOIGNAGES</a>
+                          </li>
+                          
+                        </ul>
+                        
+                      </div>
+                    </div>
+                  </nav>
+                </div>
         </section>
     </header>
-
-    <section class="s2">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="photos/im25.png" alt="First slide">
+    <section class="caro">
+        <div class="carou">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="photos/djagoim3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block car">
+                      <h5 class="titr">Djago-I</h5>
+                      <p>Une reference dans le domaine de l'informatique et en matiere de gestion </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="photos/im12.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block car">
+                      <h5 class="titr">Djago-I</h5>
+                      <p>Unique distributeur agrée SAGE au BURKINA FASO </p>
+                    
+                    </div>
+                  </div>
+                  <div class="carousel-item pa">
+                    <img src="photos/im25.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block car">
+                      <h5 class="titr">Djago-I</h5>
+                      <p>Des logiciels de comptabilité conçus pour chaque type d’entreprise</p>
+                      
+                
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="photos/im12.jpg" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="photos/im3.png" alt="Third slide">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-
+        </div>
     </section>
     <section class="s3">
-        <p class="s33"> QUI SOMMES NOUS</p>
-        <div class="c1">
-            <div class="c2">
-                <img src="photos/im6.png" width="550px" height="350px">
-            </div>
-            <div class="c3">
-                <p>Djago international est une filiale du groupe LS
-                    créé en 1997. Le goupe logiciels et services
-                    audite, conseille et integre des solutions de
-                    gestion adaptées aux entreprises et
-                    administration en Afrique.
-                </p>
-                <p>Nous avons fondé notre notoriété sur l'expertise
-                    de consultants certifiés qui accompagnent aussi
-                    bien des groupes internationaux et
-                    administration que de toutes petites entreprises
-                    dans le cadrage de leurs projet.
-                </p>
-            </div>
-        </div>
-    </section>
+      <div class="fi text-center text-white"> <h1 >Qui somme nous</h1></div>
+      <div class="c1">
+          <div class="c2">
+              <img src="photos/im6.jpeg" width="550px" height="350px">
+          </div>
+          <div class="c3">
+              <p>Djago international est une filiale du groupe LS
+                  créé en 1997. Le goupe logiciels et services
+                  audite, conseille et integre des solutions de
+                  gestion adaptées aux entreprises et
+                  administration en Afrique.
+              </p>
+              <p>Nous avons fondé notre notoriété sur l'expertise
+                  de consultants certifiés qui accompagnent aussi
+                  bien des groupes internationaux et
+                  administration que de toutes petites entreprises
+                  dans le cadrage de leurs projet.
+              </p>
+          </div>
+      </div>
+  </section>
 
-    <section class="s4">
-        <p class="d1">NOS METIERS</p>
-        <div class="d11">
-            <div class="d2">
-                <div class="d21">
-                    <img src="photos/im8.png" alt="">
-                    <p>INTEGRATION DE SOLUTION</p>
-                </div>
-                <div class="d22">
-                    <img src="photos/im9.png" alt="">
-                    <p>CONSULTANCE</p>
-                </div>
-            </div>
-            <div class="d3">
-                <img src="photos/im10.png" alt="">
-                <p>ASSIISTANCE</p>
-            </div>
-            <div class="d4">
-                <div class="d41">
-                    <img src="photos/im7.png" alt="">
-                    <p>FORMATION</p>
-                </div>
-                <div class="d42">
-                    <img src="photos/im11.png" alt="">
-                    <p>AUDIT ET CONSEIL</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section class="s5">
-        <div class="s51">
-            <p>NOS PARTENAIRES</p>
-            <div class="e1">
-                <img src="photos/im13.png" alt="">
-                <img src="photos/im14.png" alt="">
-                <img src="photos/im12.png" alt="">
+  <section class="s4">
+    <div class="lo2 text-center"><h1>Nos metiers</h1></div>
+      <div class="d11">
+          <div class="d2">
+              <div class="d21">
+                  <img src="photos/im8.png" alt="">
+                  <p>INTEGRATION DE SOLUTION</p>
+              </div>
+              <div class="d22">
+                  <img src="photos/im9.png" alt="">
+                  <p>CONSULTANCE</p>
+              </div>
+          </div>
+          <div class="d3">
+              <img src="photos/im10.png" alt="">
+              <p>ASSIISTANCE</p>
+          </div>
+          <div class="d4">
+              <div class="d41">
+                  <img src="photos/im7.png" alt="">
+                  <p>FORMATION</p>
+              </div>
+              <div class="d42">
+                  <img src="photos/im11.png" alt="">
+                  <p>AUDIT ET CONSEIL</p>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  <section class="s5">
+      <div class="s51">
+        <div class="lo1"><h1 class="lo text-white text-center">Nos partenaires</h1></div>
+          <div class="e1">
+              <img src="photos/im13.png" alt="">
+              <img src="photos/im14.png" alt="">
+              <img src="photos/im12.png" alt="">
 
-            </div>
-            <div class="e2">
-                <img src="photos/im15.png" alt="">
-                <img src="photos/im16.png" alt="">
-                <img src="photos/im17.png" alt="">
-            </div>
-            <div class="e3">
-                <img src="photos/im18.png" alt="">
-                <img src="photos/im19.png" alt="">
-                <img src="photos/im20.png" alt="">
-            </div>
-        </div>    
-    </section>
+          </div>
+          <div class="e2">
+              <img src="photos/im15.png" alt="">
+              <img src="photos/im16.png" alt="">
+              <img src="photos/im17.png" alt="">
+          </div>
+          <div class="e3">
+              <img src="photos/im18.png" alt="">
+              <img src="photos/im19.png" alt="">
+              <img src="photos/im20.png" alt="">
+          </div>
+      </div>    
+  </section>
 
-    <section class="s6">
-        <h1> REJOINGNEZ NOTRES EQUIPES</h1>
-        <div class="f1">
-            <div class="f11"><p>Emploi</p><img src="photos/1.png" alt="" width="20px" height="20px"></div>
-            <div class="f12"><p>Stage</p><img src="photos/1.png" alt="" width="20px" height="20px"></div>
+  <section> 
+    <p class="f11 text-white text-center">Localisation</p>
+   <div><iframe class="cart" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3897.6732370655327!2d-1.5093699265550489!3d12.337766687922405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe2ebde13c218b0d%3A0xcd6edbf17085800a!2sDJAGO%20-%20INTERNATIONAL!5e0!3m2!1sfr!2sbf!4v1681605109616!5m2!1sfr!2sbf" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div> 
+  </section>
+<div class="kod">
+  <footer class="bg-black fin">
+        <div>
+          <a href="acceuil.html"><img src="photos/icone--haut.png" alt="icone" height="25px" width="25px"></a>
         </div>
-    </section>
-    
+        <div class="card-body">
+          <div class="mer">
+          <div><h5 class="card-title text-white">Coordonnées</h5><br>
+          <p class="card-text text-white">25 37 11 28 <br> 25 37 22 66 <br> 25 37 22 69</p></div>
+          <div><h5 class="card-title text-white">Adresse</h5><br>
+          <p class="card-text text-white">rue 30.21 <br> Ouagadougou <br> Burkina Faso</p></div>
+          <div><h5 class="card-title text-white">Nos Horaires</h5><br>
+          <p class="card-text"><p class="oki text-white">lun,Mer,Mar,Jeu,ven <br> 07:30 - 12:00 <br> 13:00 - 16:30</p></p></div>
+        </div>
+        <div>
+          <hr>
+          <p class="card-text text-white p">copyright Djago-I filiale du groupe LS</p>
+        </div>
+      
+  </footer>
+</div>
+    <script src="style/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

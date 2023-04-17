@@ -1,0 +1,171 @@
+body{
+     overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
+}
+.s1{
+    height: 400px;
+}
+.a1{
+    background-color:blue;
+    height: 300px;
+}
+.a1 img{
+   position: relative;
+   left: -70px;
+   bottom: 35px;
+    
+}
+.a2{
+    display: flex;
+}
+.a3{
+    color: red;
+    font-size: 50px;
+    position: relative;
+    bottom: 225px;
+    font-weight: bolder;
+    margin-left: 95px;
+}
+.a33{
+    position: relative;
+    bottom: 50px;
+    font-size: bold;
+}
+.a4 img{
+    position: relative;
+    left: 15px;
+    bottom: 190px;
+    background-color: white; 
+}
+.a5{
+    position: relative;
+    left: 300px;
+    bottom: 218px;
+}
+.a5 img{
+  border-radius: 50%; 
+  position: relative;
+  bottom: 85px;
+  border: 25px solid red;
+  left: -80px;
+}
+.a6{
+position: relative;
+bottom: 140px;
+}
+.nav{
+    height: 50px;
+    background-color: black;
+}
+.nav a{
+    color: white;
+    font-size: 20px;
+    margin-left: 70px;
+    
+}
+
+.nav-item ko{
+    color: white;
+}
+.a1{
+   
+}
+.b1{
+    font-size: 50px;
+    color: red;
+    position: relative;
+    left: 40px;
+    top: 25px;
+}
+.b2{
+margin-left: 500px;
+position: relative;
+bottom: 400px;
+}
+.play{
+    height: 250px;
+    width: 400px;
+    border: 1px solid blue;
+    border-radius: 33% 67% 70% 30% / 45% 65% 35% 55% ;
+    background: linear-gradient(blue, pink);;
+}
+.s2{
+    position: relative;
+    top: 500px;
+    height: 700px;
+    background-color: grey;
+}.but{
+    margin-left: 150px;
+    position: relative;
+    top: 100px;
+}
+.dil{
+    text-align: justify;
+    width: 30%;
+    position: relative;
+    top: 100px;
+    margin-left: 50px;
+}
+.vag{
+    text-align: justify;
+    width: 50%;
+    position: relative;
+    color: white;
+    top: 150px;
+    left: 50px;
+}
+.vlog{
+    margin-left: 800px;
+    position: relative;
+    margin-left: 850px;
+    bottom: 100px;
+}
+.rock{
+    height: 800px;
+    background-color: beige;
+    position: relative;
+    top: 500px;
+}
+.ral{
+    position: relative;
+    top: 50px;
+    left: 140px;
+}
+.muet{
+    position: relative;
+    top: 100px;
+}
+.kod{
+    border: 1px solid blue;
+    position: relative;
+    top: 425px;
+}
+.bel{
+    position: relative;
+    left: 200px;
+   width: 0PX;
+   
+}
+.fin{
+    position: relative;
+    top: -25px;
+    height: 250px;
+}
+
+.mer{
+    display: flex;
+    gap: 350px;
+    margin-left: 70px;
+}
+.fin hr{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+.p{
+   position: relative;
+   left: 450px;
+}
+

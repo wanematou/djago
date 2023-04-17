@@ -1,16 +1,87 @@
+
 .s1{
+    height: 1000px;  
+}
+.a1{
+    background-color:blue;
+    height: 800px;
+   
+}
+.a1 img{
+   position: relative;
+   left: -200px;
+   bottom: 100px;
+    
+}
+.a2{
+    display: flex;
+    position: relative;
+    left: 300px;
+    top: -300px;
+   
+}
+.a3{
+    color: red;
+    font-size: 150px;
+    position: relative;
+    top: -400px;
+    font-weight: bolder;
+}
+.a33{
+    position: relative;
+    bottom: 50px;
+    font-size: bold;
+}
+.a4 img{
+    position: relative;
+    left: 35px;
+    bottom: 160px;
+    background-color: white;
+    width: 200px; 
+}
+.a5{
+    position: relative;
+    left: 300px;
+    bottom: 518px;
+}
+.a5 img{
+  border-radius: 50%; 
+  border: 65px solid red;
+  left: 500px;
+}
+.a6{
+position: relative;
+bottom: 140px;
+}
+.nav{
+    height: 120px;
+    background-color: black;
+}
+.nav a{
+    color: white;
+    font-size: 60px;
+    margin-left: 200px;
+    
+}
+
+.nav-item ko{
+    color: white;
+}
+.si{
     background-color: #DFDFEE; 
     font-size: 100px;
-    height: 1550px;width: 90%; 
-    margin-left: 200px; 
+    height: 1550px;width: 100%; 
+    position: relative;
+    top: -40px;
 }
-.s1 p{
+.si p{
     position: relative; top: 9%;
     text-align: justify;
 }
-.a1{
+.ai{
     font-size: 150px !important;  
    text-align: center !important;
+   font-weight: bold;
 }
 .s2{
     font-size: 50px;
@@ -107,5 +178,32 @@ bottom: 1500px;
     bottom: 1000px;
     height: 1000px;
 }
+.fin{
+    position: relative;
+    top: 10px;
+    height: 600px;
+}
+.fin h5{
+    font-size: 60px;
+}
+
+.mer{
+    display: flex;
+    gap: 1000px;
+    margin-left: 450px;
+}
+.mer p{
+    font-size: 45px;
+}
+.fin hr{
+    width: 100%;
+    height: 6px;
+    background-color: white;
+}
+.p{
+  text-align: center;
+   font-size: 40px;
+}
+
 
 
